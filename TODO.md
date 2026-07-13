@@ -18,7 +18,7 @@
 - [x] Widerrufs- bzw. Abmeldemöglichkeit beschreiben.
 - [x] Double-Opt-In in CleverReach aktiviert und Formulierung final geprüft.
 - [x] Vertrag zur Auftragsverarbeitung mit CleverReach akzeptiert.
-- [ ] Datenschutz nach GitHub-Pages-Domain-Aktivierung final gegenprüfen.
+- [x] Datenschutz nach GitHub-Pages-Domain-Aktivierung final gegenprüfen.
 
 ## Impressum
 
@@ -27,11 +27,11 @@
 
 ## Domain und GitHub Pages
 
-- Custom Domain in GitHub Pages eintragen.
-- DNS beim Domainanbieter setzen.
-- HTTPS in GitHub Pages aktivieren bzw. erzwingen.
-- Optional eine `CNAME`-Datei mit der finalen Domain anlegen.
-- Optional `robots.txt` und `sitemap.xml` mit finaler Domain ergänzen.
+- [x] Custom Domain in GitHub Pages eintragen.
+- [x] DNS beim Domainanbieter setzen.
+- [x] HTTPS in GitHub Pages aktivieren bzw. erzwingen.
+- [x] `CNAME`-Datei mit der finalen Domain anlegen.
+- [x] `robots.txt` und `sitemap.xml` mit finaler Domain ergänzen.
 
 ## Inhalt und Design
 
