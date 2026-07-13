@@ -12,9 +12,34 @@
   --sunset: #d99464;
   --water: #5d8aa8;
   --white: #ffffff;
+  --header-background: rgba(247, 248, 244, 0.9);
+  --image-background: #f9faf6;
+  --primary-background: #4f6f52;
+  --button-hover: #3f5d43;
+  --focus-ring: rgba(109, 139, 91, 0.18);
   --shadow: 0 18px 50px rgba(22, 32, 26, 0.12);
   --radius: 8px;
   --content: 1120px;
+}
+
+:root[data-theme='dark'] {
+  --text: #eef2eb;
+  --text-secondary: #aeb9ad;
+  --background: #141a16;
+  --surface: #202822;
+  --surface-strong: #2b362d;
+  --line: #344038;
+  --forest: #91ad7f;
+  --forest-dark: #a7c795;
+  --sunset: #e5a578;
+  --water: #83aac4;
+  --white: #ffffff;
+  --header-background: rgba(20, 26, 22, 0.9);
+  --image-background: #202822;
+  --primary-background: #59774f;
+  --button-hover: #6f915e;
+  --focus-ring: rgba(145, 173, 127, 0.24);
+  --shadow: 0 18px 50px rgba(0, 0, 0, 0.34);
 }
 
 * {
@@ -32,6 +57,7 @@ body {
   background: var(--background);
   font-family: var(--font-display);
   line-height: 1.5;
+  transition: color 180ms ease, background-color 180ms ease;
 }
 
 img {
@@ -59,7 +85,7 @@ a:hover {
   width: min(100% - 32px, var(--content));
   margin: 0 auto;
   padding: 16px 0;
-  background: rgba(247, 248, 244, 0.9);
+  background: var(--header-background);
   backdrop-filter: blur(18px);
 }
 
@@ -89,6 +115,59 @@ a:hover {
 
 .nav a[aria-current='page'] {
   color: var(--text);
+}
+
+.theme-toggle {
+  position: relative;
+  display: inline-grid;
+  width: 40px;
+  height: 40px;
+  flex: 0 0 auto;
+  place-items: center;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0;
+  color: var(--text);
+  background: var(--surface);
+  cursor: pointer;
+  transition: color 160ms ease, background-color 160ms ease, border-color 160ms ease, transform 160ms ease;
+}
+
+.theme-toggle:hover {
+  color: var(--forest-dark);
+  background: var(--surface-strong);
+  transform: translateY(-1px);
+}
+
+.theme-toggle:focus-visible {
+  outline: 3px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+
+.theme-toggle svg {
+  position: absolute;
+  width: 19px;
+  height: 19px;
+  transition: opacity 160ms ease, transform 160ms ease;
+}
+
+.theme-toggle .icon-sun,
+:root[data-theme='dark'] .theme-toggle .icon-moon {
+  opacity: 1;
+  transform: rotate(0) scale(1);
+}
+
+.theme-toggle .icon-moon,
+:root[data-theme='dark'] .theme-toggle .icon-sun {
+  opacity: 0;
+  transform: rotate(-30deg) scale(0.65);
+}
+
+.theme-toggle--floating {
+  position: fixed;
+  top: 18px;
+  right: 18px;
+  z-index: 10;
 }
 
 .hero {
@@ -180,12 +259,12 @@ h3 {
 
 .button.primary {
   color: var(--white);
-  background: var(--forest-dark);
+  background: var(--primary-background);
 }
 
 .button.primary:hover {
   color: var(--white);
-  background: #3f5d43;
+  background: var(--button-hover);
 }
 
 .button.secondary {
@@ -203,7 +282,7 @@ h3 {
   border: 1px solid var(--line);
   border-radius: 28px;
   overflow: hidden;
-  background: #f9faf6;
+  background: var(--image-background);
   box-shadow: var(--shadow);
 }
 
@@ -281,7 +360,7 @@ h3 {
 .screen-pair img {
   border: 1px solid var(--line);
   border-radius: 24px;
-  background: #f9faf6;
+  background: var(--image-background);
   box-shadow: 0 12px 32px rgba(22, 32, 26, 0.1);
 }
 
@@ -353,7 +432,7 @@ input[type='email'] {
 
 input:focus {
   border-color: var(--forest);
-  outline: 3px solid rgba(109, 139, 91, 0.18);
+  outline: 3px solid var(--focus-ring);
 }
 
 .choice-group {
@@ -556,5 +635,13 @@ input:focus {
   .signup-form,
   .legal-content {
     padding: 14px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body,
+  .theme-toggle,
+  .theme-toggle svg {
+    transition: none;
   }
 }
