@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="844" viewBox="0 0 390 844" role="img" aria-labelledby="title desc">
+  <title id="title">Roavyn Karte</title>
+  <desc id="desc">Vorschau der Roavyn Kartenansicht mit Filter-Chips, Spot-Liste und Route für heute.</desc>
+  <rect width="390" height="844" fill="#EFF2EA"/>
+  <rect x="18" y="24" width="354" height="796" rx="28" fill="#F9FAF6"/>
+  <text x="38" y="74" fill="#6D756C" font-family="Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="2">ROAVYN</text>
+  <text x="38" y="105" fill="#172018" font-family="Arial, sans-serif" font-size="24" font-weight="700">Wohin geht die</text>
+  <text x="38" y="132" fill="#172018" font-family="Arial, sans-serif" font-size="24" font-weight="700">nächste Ausfahrt?</text>
+  <text x="38" y="160" fill="#6D756C" font-family="Arial, sans-serif" font-size="13">Spots und Strecken in deiner Umgebung</text>
+  <rect x="38" y="184" width="118" height="34" rx="17" fill="#D7E4CF"/>
+  <text x="56" y="206" fill="#172018" font-family="Arial, sans-serif" font-size="13" font-weight="700">In meiner Nähe</text>
+  <rect x="164" y="184" width="126" height="34" rx="17" fill="#EEF1EA"/>
+  <text x="182" y="206" fill="#5F685D" font-family="Arial, sans-serif" font-size="13">Sonnenuntergang</text>
+  <rect x="38" y="242" width="314" height="188" rx="18" fill="#DDE7DA"/>
+  <path d="M38 360 C93 326 128 382 175 344 C224 304 267 336 352 292 L352 430 L38 430 Z" fill="#BFD1B8"/>
+  <path d="M38 310 C88 284 128 304 170 282 C222 254 286 275 352 247" fill="none" stroke="#7BA37F" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="113" cy="318" r="11" fill="#D99464"/>
+  <circle cx="260" cy="292" r="11" fill="#5D8AA8"/>
+  <circle cx="305" cy="345" r="11" fill="#6D8B5B"/>
+  <text x="38" y="471" fill="#172018" font-family="Arial, sans-serif" font-size="15" font-weight="700">Nahe Spots</text>
+  <text x="243" y="471" fill="#6D756C" font-family="Arial, sans-serif" font-size="12">berechnet bis 35 min</text>
+  <rect x="38" y="492" width="314" height="94" rx="14" fill="#EEF1EA"/>
+  <rect x="54" y="510" width="56" height="56" rx="12" fill="#8BA888"/>
+  <text x="126" y="529" fill="#172018" font-family="Arial, sans-serif" font-size="16" font-weight="700">Talblick Waldeck</text>
+  <text x="126" y="551" fill="#6D756C" font-family="Arial, sans-serif" font-size="12">Nahe Waldeck · 18 min</text>
+  <text x="126" y="572" fill="#172018" font-family="Arial, sans-serif" font-size="12">4.8 · Schöne Aussicht</text>
+  <rect x="38" y="602" width="314" height="94" rx="14" fill="#EEF1EA"/>
+  <rect x="54" y="620" width="56" height="56" rx="12" fill="#D99464"/>
+  <text x="126" y="639" fill="#172018" font-family="Arial, sans-serif" font-size="16" font-weight="700">Abendbank am Hain</text>
+  <text x="126" y="661" fill="#6D756C" font-family="Arial, sans-serif" font-size="12">Hainstrasse West · 27 min</text>
+  <text x="126" y="682" fill="#172018" font-family="Arial, sans-serif" font-size="12">4.6 · Sonnenuntergang</text>
+  <text x="38" y="733" fill="#172018" font-family="Arial, sans-serif" font-size="15" font-weight="700">Route für heute</text>
+  <rect x="38" y="752" width="314" height="40" rx="14" fill="#D7E4CF"/>
+  <text x="58" y="777" fill="#172018" font-family="Arial, sans-serif" font-size="14" font-weight="700">Landstrasse zum Tal</text>
+</svg>

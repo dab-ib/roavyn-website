@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Roavyn - Spots und Strecken für spontane Ausfahrten</title>
+    <meta
+      name="description"
+      content="Roavyn hilft dir, ruhige Spots, schöne Strecken und spontane Ausfahrten in deiner Umgebung zu finden. Melde dich für Newsletter oder Beta-Test an."
+    >
+    <meta name="theme-color" content="#F7F8F4">
+    <meta property="og:title" content="Roavyn">
+    <meta property="og:description" content="Spots und Strecken für spontane Ausfahrten.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/screens/roavyn-map.svg">
+    <link rel="icon" href="assets/favicon.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Roavyn Startseite">
+        <img src="assets/logo.png" alt="" width="40" height="40">
+        <span>Roavyn</span>
+      </a>
+      <nav class="nav" aria-label="Hauptnavigation">
+        <a href="#signup">Beta testen</a>
+        <a href="impressum.html">Impressum</a>
+        <a href="datenschutz.html">Datenschutz</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">ROAVYN</p>
+          <h1>Wohin geht die nächste Ausfahrt?</h1>
+          <p class="lead">
+            Roavyn sammelt ruhige Aussichtspunkte, kurze Runden und schöne Strecken für spontane Fahrten,
+            Pausen im Grünen und Abende ohne langes Suchen.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#signup">Beta-Platz sichern</a>
+            <a class="button secondary" href="#idee">Mehr erfahren</a>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="Roavyn App Vorschau">
+          <img src="assets/screens/roavyn-map.svg" alt="Roavyn Kartenansicht mit Spots und Route für heute">
+        </div>
+      </section>
+
+      <section class="band" id="idee">
+        <div class="section-heading">
+          <p class="eyebrow">Die Idee</p>
+          <h2>Ausfahrten planen, ohne dass es sich nach Planung anfühlt.</h2>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <span class="accent sunset"></span>
+            <h3>Spots in deiner Nähe</h3>
+            <p>Aussicht, Sonnenuntergang, ruhige Orte und legale Parkmöglichkeiten kompakt gesammelt.</p>
+          </article>
+          <article class="feature-card">
+            <span class="accent forest"></span>
+            <h3>Schöne Strecken</h3>
+            <p>Kuratierte Routen für kurze Runden, entspannte Landstraßen und Pausen mit Aussicht.</p>
+          </article>
+          <article class="feature-card">
+            <span class="accent water"></span>
+            <h3>Beta mit echten Fahrten</h3>
+            <p>Feedback aus der Praxis entscheidet, welche Funktionen als Nächstes entstehen.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="preview-section">
+        <div class="preview-copy">
+          <p class="eyebrow">Look & Feel</p>
+          <h2>Ruhig, schnell scannbar, nah an der App.</h2>
+          <p>
+            Die Website greift die Naturtöne, kompakten Karten und Chips aus Roavyn auf. Kein lauter Launch-Hype,
+            sondern eine klare Einladung für Menschen, die das Produkt früh ausprobieren wollen.
+          </p>
+        </div>
+        <div class="screen-pair">
+          <img src="assets/screens/roavyn-map.svg" alt="Roavyn Kartenansicht">
+          <img src="assets/screens/roavyn-discover.svg" alt="Roavyn Entdecken Ansicht">
+        </div>
+      </section>
+
+      <section class="signup-section" id="signup">
+        <div class="signup-copy">
+          <p class="eyebrow">Newsletter & Beta</p>
+          <h2>Bleib nah dran.</h2>
+          <p>
+            Trag dich ein, wenn du Updates erhalten oder Roavyn als Beta-Tester ausprobieren möchtest.
+            Newsletter-Anmeldungen sollten später per Double-Opt-In bestätigt werden.
+          </p>
+        </div>
+
+        <form
+          class="signup-form cr-roavyn-form"
+          method="post"
+          action="https://flow.cleverreach.com/fl/9c50e193-2854-4dfb-af61-c54cad34aaca/confirm"
+          target="_blank"
+        >
+          <input
+            type="text"
+            tabindex="-1"
+            autocomplete="off"
+            class="cr-nope"
+            name="email_confirm"
+            aria-hidden="true"
+          >
+
+          <div class="cr-text">
+            <h3>Roavyn Beta testen</h3>
+            <p>
+              Trag dich ein und erfahre, sobald die Roavyn-Beta startet. Du erhältst außerdem wichtige Neuigkeiten
+              zur Entwicklung von Roavyn.
+            </p>
+          </div>
+
+          <div class="field">
+            <label class="required" for="roavyn-email">E-Mail-Adresse</label>
+            <input id="roavyn-email" type="email" name="email" autocomplete="email" required>
+          </div>
+
+          <div class="cr-consent-wrapper">
+            <input id="roavyn-consent" type="checkbox" name="tags[]" value="accept" required>
+            <label for="roavyn-consent" class="cr-consent-required">
+              Ich möchte per E-Mail Informationen zur Roavyn-Beta und wichtige Neuigkeiten rund um Roavyn erhalten.
+              Meine Einwilligung kann ich jederzeit über den Abmeldelink in den E-Mails mit Wirkung für die Zukunft
+              widerrufen. Weitere Informationen finde ich in der
+              <a href="datenschutz.html" target="_blank" rel="noopener noreferrer">Datenschutzerklärung</a>.
+            </label>
+          </div>
+
+          <button class="button primary full" type="submit">Für die Beta vormerken</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Roavyn</span>
+      <span>Spots und Strecken für spontane Ausfahrten.</span>
+      <nav aria-label="Rechtliches">
+        <a href="impressum.html">Impressum</a>
+        <a href="datenschutz.html">Datenschutz</a>
+      </nav>
+    </footer>
+  </body>
+</html>

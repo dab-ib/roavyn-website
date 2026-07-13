@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="844" viewBox="0 0 390 844" role="img" aria-labelledby="title desc">
+  <title id="title">Roavyn Entdecken</title>
+  <desc id="desc">Vorschau der Entdecken-Ansicht mit kuratierten Sammlungen, Top-Spots und Strecken.</desc>
+  <rect width="390" height="844" fill="#EFF2EA"/>
+  <rect x="18" y="24" width="354" height="796" rx="28" fill="#F9FAF6"/>
+  <text x="38" y="86" fill="#172018" font-family="Arial, sans-serif" font-size="28" font-weight="700">Entdecken</text>
+  <text x="38" y="116" fill="#6D756C" font-family="Arial, sans-serif" font-size="13">Kuratierte Ideen für spontane Fahrten,</text>
+  <text x="38" y="135" fill="#6D756C" font-family="Arial, sans-serif" font-size="13">ruhige Pausen und schöne Strecken.</text>
+  <rect x="38" y="168" width="210" height="132" rx="14" fill="#EEF1EA"/>
+  <rect x="58" y="190" width="42" height="6" rx="3" fill="#D99464"/>
+  <text x="58" y="236" fill="#172018" font-family="Arial, sans-serif" font-size="17" font-weight="700">Sonnenuntergang</text>
+  <text x="58" y="258" fill="#172018" font-family="Arial, sans-serif" font-size="17" font-weight="700">in 2 Stunden</text>
+  <text x="58" y="282" fill="#6D756C" font-family="Arial, sans-serif" font-size="13">8 Vorschläge</text>
+  <rect x="264" y="168" width="88" height="132" rx="14" fill="#EEF1EA"/>
+  <rect x="284" y="190" width="42" height="6" rx="3" fill="#6D8B5B"/>
+  <text x="284" y="236" fill="#172018" font-family="Arial, sans-serif" font-size="15" font-weight="700">Alleine</text>
+  <text x="284" y="258" fill="#172018" font-family="Arial, sans-serif" font-size="15" font-weight="700">fahren</text>
+  <text x="38" y="344" fill="#172018" font-family="Arial, sans-serif" font-size="15" font-weight="700">Top-Spots</text>
+  <rect x="38" y="366" width="314" height="94" rx="14" fill="#EEF1EA"/>
+  <rect x="54" y="384" width="56" height="56" rx="12" fill="#8BA888"/>
+  <text x="126" y="403" fill="#172018" font-family="Arial, sans-serif" font-size="16" font-weight="700">Talblick Waldeck</text>
+  <text x="126" y="425" fill="#6D756C" font-family="Arial, sans-serif" font-size="12">Aussicht · 18 min</text>
+  <text x="126" y="446" fill="#172018" font-family="Arial, sans-serif" font-size="12">4.8 · Gut alleine</text>
+  <rect x="38" y="476" width="314" height="94" rx="14" fill="#EEF1EA"/>
+  <rect x="54" y="494" width="56" height="56" rx="12" fill="#5D8AA8"/>
+  <text x="126" y="513" fill="#172018" font-family="Arial, sans-serif" font-size="16" font-weight="700">Seehalt Nordufer</text>
+  <text x="126" y="535" fill="#6D756C" font-family="Arial, sans-serif" font-size="12">Natur · 35 min</text>
+  <text x="126" y="556" fill="#172018" font-family="Arial, sans-serif" font-size="12">4.5 · Parkplatz vorhanden</text>
+  <text x="38" y="626" fill="#172018" font-family="Arial, sans-serif" font-size="15" font-weight="700">Schöne Strecken</text>
+  <rect x="38" y="648" width="314" height="118" rx="14" fill="#EEF1EA"/>
+  <text x="58" y="678" fill="#172018" font-family="Arial, sans-serif" font-size="17" font-weight="700">Seen und Wald</text>
+  <text x="58" y="704" fill="#6D756C" font-family="Arial, sans-serif" font-size="13">58 km · 82 min · kurvig</text>
+  <path d="M58 732 C103 706 145 750 190 724 C235 697 278 722 332 690" fill="none" stroke="#7BA37F" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="58" cy="732" r="7" fill="#6D8B5B"/>
+  <circle cx="332" cy="690" r="7" fill="#D99464"/>
+</svg>
