@@ -528,6 +528,17 @@ input:focus {
   font-weight: 800;
 }
 
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.social-link svg {
+  width: 18px;
+  height: 18px;
+}
+
 .legal-page {
   max-width: 850px;
 }
