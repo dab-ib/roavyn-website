@@ -44,6 +44,6 @@
 
 - [x] Support, App-Datenschutz und externer Löschweg als statische Seiten integriert.
 - [x] Footer, Website-Datenschutzerklärung und Sitemap verlinken die App-Seiten.
-- [ ] Veröffentlichung und HTTPS-Inhalte aller drei URLs ohne Login bestätigen.
+- [x] Veröffentlichung und HTTPS-Inhalte aller drei URLs ohne Login bestätigt (14.11.2026, 16:22 Uhr Europe/Berlin): HTTP 200, TLS gültig, HTML entspricht dem Push. Browserprüfung bei 390 × 844 einschließlich Navigation und Mail-Link erfolgreich.
 - [ ] Support-Postfach mit eigener Testanfrage und Antwort prüfen.
 - [ ] URLs und Datenangaben in App Store Connect und Play Console eintragen.
