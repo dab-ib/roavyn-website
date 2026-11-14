@@ -39,3 +39,11 @@
 - App-Screenshots aktualisieren, wenn neue Screens aus der App vorhanden sind.
 - Logo-Darstellung auf Desktop und Mobile im Browser prüfen.
 - Seite einmal auf Smartphone-Breite testen.
+
+## App-Store-Seiten
+
+- [x] Support, App-Datenschutz und externer Löschweg als statische Seiten integriert.
+- [x] Footer, Website-Datenschutzerklärung und Sitemap verlinken die App-Seiten.
+- [ ] Veröffentlichung und HTTPS-Inhalte aller drei URLs ohne Login bestätigen.
+- [ ] Support-Postfach mit eigener Testanfrage und Antwort prüfen.
+- [ ] URLs und Datenangaben in App Store Connect und Play Console eintragen.
