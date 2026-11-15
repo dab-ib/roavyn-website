@@ -46,3 +46,16 @@ Prüfung: `node --test tests/public-pages.test.cjs`. Veröffentlichung erfolgt w
 über das bestehende GitHub-Pages-Setup. Danach alle drei URLs ohne Login aufrufen,
 Seiteninhalt, Navigation und Mail-Link prüfen. Eine eigene Testanfrage samt Antwort
 bestätigt das Postfach; ein öffentlicher Mail-Link allein tut das nicht.
+
+## Geteilte Spots und Strecken
+
+`/share/?type=spot&id=…` und `/share/?type=route&id=…` zeigen öffentliche Einträge auch ohne App.
+Die Seite verwendet ausschließlich einen öffentlichen Supabase-Publishable-Key und anonyme Leserechte.
+Die Quellen liegen in `Roavyn/docs/store-web/share/`. Mit `npm run share-web:build` im App-Repository
+werden die Website-Dateien einschließlich Seed-Daten und Domain-Zuordnungen unter `dist/share-web/` erzeugt.
+Die Ordner `share/` und `.well-known/` daraus hierher übernehmen. `.nojekyll` erhalten.
+
+Store-URLs, Apple-Team-ID und Android-Signatur-Fingerprints sind noch nachzutragen;
+Einrichtung und Tests: `Roavyn/docs/SHARING.md`. Ohne diese Angaben funktioniert die Browseransicht
+mit manuellem App-Button und Beta-Link. Automatisches Öffnen erfordert gültige Domain-Zuordnungen
+und einen neuen nativen App-Build.

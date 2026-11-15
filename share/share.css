@@ -1,0 +1,12 @@
+.shared-page { width: min(100% - 40px, 760px); margin: 64px auto 80px; min-height: 55vh; }
+.shared-page h1 { font-size: clamp(2rem, 6vw, 3.6rem); line-height: 1.12; margin: 16px 0 24px; overflow-wrap: anywhere; }
+.shared-page [hidden] { display: none; }
+.shared-page #photo { width: 100%; max-height: 440px; object-fit: cover; border-radius: 20px; margin-bottom: 24px; }
+.shared-summary { color: var(--text-secondary); margin-bottom: 20px; }
+.shared-description { white-space: pre-wrap; overflow-wrap: anywhere; }
+.shared-page dl { display: grid; grid-template-columns: minmax(100px, 1fr) 2fr; gap: 12px 24px; padding: 24px; margin: 24px 0; background: var(--surface); border-radius: 16px; }
+.shared-page dt { color: var(--text-secondary); }
+.shared-page dd { margin: 0; overflow-wrap: anywhere; }
+.shared-actions { display: flex; flex-wrap: wrap; gap: 16px; align-items: center; margin: 32px 0 16px; }
+.shared-hint { font-size: .9rem; color: var(--text-secondary); }
+@media (max-width: 480px) { .shared-page { margin-top: 36px; } .shared-page dl { padding: 16px; gap: 12px; } }

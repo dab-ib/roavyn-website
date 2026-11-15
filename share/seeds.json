@@ -1,0 +1,75 @@
+{
+  "spot": [
+    {
+      "id": "talblick-waldeck",
+      "title": "Talblick Waldeck",
+      "description": "Ein kurzer Abstecher oberhalb der Landstraße mit weitem Blick über Felder, Waldkante und kleine Dörfer.",
+      "category": "Aussicht",
+      "location_label": "Nähe Waldeck",
+      "best_time": "goldene Stunde",
+      "parking": "2-3 legale Plätze am Rand"
+    },
+    {
+      "id": "abendbank-hain",
+      "title": "Abendbank am Hain",
+      "description": "Eine kleine Sitzbank am Feldweg, perfekt für einen ruhigen Stopp nach einer entspannten Abendfahrt.",
+      "category": "Sonnenuntergang",
+      "location_label": "Hainstraße West",
+      "best_time": "30 Minuten vor Sonnenuntergang",
+      "parking": "Parkbucht vor Ort"
+    },
+    {
+      "id": "seehalt-nordufer",
+      "title": "Seehalt Nordufer",
+      "description": "Ein erreichbarer Seezugang mit breiter Aussicht über das Wasser und einer guten Pause für kurze Touren.",
+      "category": "Natur",
+      "location_label": "Nordufer Seehalt",
+      "best_time": "vormittags oder abends",
+      "parking": "kleiner öffentlicher Parkplatz"
+    },
+    {
+      "id": "waldkurve-ost",
+      "title": "Waldkurve Ost",
+      "description": "Eine ruhige Kurve zwischen hohen Bäumen. Kein Ort zum Rasen, aber ein starker Zwischenstopp für Fotos.",
+      "category": "Fotospot",
+      "location_label": "Östlicher Waldgürtel",
+      "best_time": "nach Regen oder morgens",
+      "parking": "nur markierte Waldparkplätze nutzen"
+    }
+  ],
+  "route": [
+    {
+      "id": "landstrasse-zum-tal",
+      "title": "Landstraße zum Tal",
+      "description": "Eine entspannte Runde über offene Felder, zwei kleine Waldstücke und einen Aussichtsstopp am Ende.",
+      "start_label": "Stadtrand Nord",
+      "end_label": "Talblick Waldeck",
+      "distance_km": 32,
+      "duration_minutes": 46,
+      "road_type": "Landstraße",
+      "best_time": "früher Abend"
+    },
+    {
+      "id": "seen-und-wald",
+      "title": "Seen und Wald",
+      "description": "Eine längere Route mit Seehalt, ruhigen Waldpassagen und mehreren guten Stellen für kurze Stopps.",
+      "start_label": "Marktplatz Ost",
+      "end_label": "Seehalt Nordufer",
+      "distance_km": 58,
+      "duration_minutes": 82,
+      "road_type": "Landstraße und Nebenstraßen",
+      "best_time": "Wochenende vormittags"
+    },
+    {
+      "id": "abendrunde-hain",
+      "title": "Abendrunde Hain",
+      "description": "Kurze Runde für zwei freie Stunden: ruhige Straßen, wenig Ampeln und ein klarer Sonnenuntergangsabschluss.",
+      "start_label": "Westpark",
+      "end_label": "Abendbank am Hain",
+      "distance_km": 24,
+      "duration_minutes": 38,
+      "road_type": "Nebenstraßen",
+      "best_time": "Sonnenuntergang"
+    }
+  ]
+}

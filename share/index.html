@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <meta name="referrer" content="no-referrer">
+  <meta name="theme-color" content="#F7F8F4">
+  <meta name="description" content="Entdecke einen geteilten Spot oder eine schöne Strecke auf Roavyn – auch ohne App.">
+  <title>Mit dir geteilt – Roavyn</title>
+  <link rel="icon" href="/assets/logo.png">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/share/share.css">
+  <script src="/theme.js"></script>
+  <script src="/share/share.js" defer></script>
+</head>
+<body>
+  <header class="site-header"><a class="brand" href="/" aria-label="Roavyn Startseite"><img src="/assets/logo.png" alt="" width="38" height="38"><span>roavyn<span class="brand-period">.</span></span></a><a class="nav-cta" href="/#signup">Zur Beta ↗</a></header>
+  <main class="shared-page">
+    <p class="eyebrow" id="kind">Für deine nächste Ausfahrt</p>
+    <h1 id="title">Mit dir geteilt.</h1>
+    <p id="status" role="status">Der Eintrag wird geladen …</p>
+    <noscript><p>Aktiviere JavaScript, um den geteilten Eintrag zu sehen. Ohne App kannst du ihn direkt hier im Browser lesen.</p></noscript>
+    <article id="content" hidden>
+      <img id="photo" alt="" hidden referrerpolicy="no-referrer">
+      <p id="summary" class="shared-summary"></p>
+      <p id="description" class="shared-description"></p>
+      <dl id="facts"></dl>
+    </article>
+    <div class="shared-actions">
+      <a id="open-app" class="button primary" hidden>In der App öffnen ↗</a>
+      <a id="ios-store" class="button" hidden>Im App Store laden</a>
+      <a id="android-store" class="button" hidden>Bei Google Play laden</a>
+      <a id="beta" class="text-link" href="/#signup">Für die Beta vormerken ↗</a>
+      <button id="retry" class="button" hidden type="button">Erneut versuchen</button>
+    </div>
+    <p class="shared-hint">Keine App installiert? Den Eintrag kannst du hier ansehen. „In der App öffnen“ funktioniert mit installierter Roavyn-App.</p>
+  </main>
+  <footer class="site-footer"><a class="footer-brand" href="/">roavyn<span>.</span></a><nav aria-label="Rechtliches"><a href="/impressum.html">Impressum</a><a href="/datenschutz.html">Datenschutz</a><a href="/support/">Support</a></nav></footer>
+</body>
+</html>
