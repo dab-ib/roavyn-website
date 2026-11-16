@@ -64,8 +64,14 @@
       const image = item.image_url || item.image_urls?.[0];
       if (typeof image === 'string' && URL.canParse(image)) {
         const url = new URL(image);
-        if (url.protocol === 'https:' && url.origin === new URL(config.supabaseUrl).origin && url.pathname.startsWith('/storage/v1/object/public/')) {
-          element('photo').src = url.href;
+        const prefix = '/storage/v1/object/public/spot-images/';
+        const path = url.pathname.slice(prefix.length);
+        if (url.protocol === 'https:' && url.origin === new URL(config.supabaseUrl).origin &&
+            !url.username && !url.password && !url.search && !url.hash && url.pathname.startsWith(prefix) &&
+            /^[0-9a-f-]{36}\/[a-zA-Z0-9_-][a-zA-Z0-9_./-]*$/.test(path) && !path.includes('..') && !path.includes('//')) {
+          const photo = new URL('/functions/v1/spot-image', config.supabaseUrl);
+          photo.searchParams.set('path', path);
+          element('photo').src = photo.href;
           element('photo').alt = item.title;
           element('photo').hidden = false;
           element('photo').addEventListener('error', () => { element('photo').hidden = true; });
